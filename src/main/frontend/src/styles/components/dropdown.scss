@@ -5,7 +5,7 @@
     margin-right: 20px;
 
     &:last-child {
-        margin-right: 0; // 마지막 항목의 오른쪽 마진 제거
+        margin-right: 0;
     }
 }
 
@@ -13,7 +13,7 @@
     display: inline-flex;
     align-items: center;
     cursor: pointer;
-    font-size: 18px; // 글씨 크기 통일
+    font-size: 18px;
     font-weight: bold;
     color: white;
     padding: 10px 15px;
@@ -35,17 +35,17 @@
     z-index: 100;
 
     li a {
-        text-align: left; // 텍스트 왼쪽 정렬 유지
+        text-align: left;
         color: white;
         padding: 12px 20px;
         text-decoration: none;
         display: block;
-        font-size: 10px; // 글씨 크기 변경
+        font-size: 10px;
         width: 100%;
         box-sizing: border-box;
 
         &:hover {
-            background-color: #b67c00; // 호버 시 배경색 변경
+            background-color: #b67c00;
         }
     }
 }
